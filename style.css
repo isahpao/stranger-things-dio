@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    
+    width: 1700px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+header{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 675px; 
+}
+
+  
+header img{
+    width: 630px;
+    height: 216px;
+    margin-top: 67px;
+}
+
+
+
+header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;
+    text-align: center;
+    margin-top: 30px;
+    width: 755px;
+}
+
+header button{
+    width: 284px;
+    border: 3px solid;
+    height: 54px;
+    font-family: "Archivo Black", sans-serif;
+    color: #CF0F0F;
+    background: transparent;
+    padding: 16px 32px;
+    margin-top:  49px;
+    cursor: pointer;
+    margin-bottom: 179px;
+}
+
+
+
+.bg-principal {
+    background-image: url(./images/backgrounds/424d4dd55664ec139b35d728ccf62135.jpeg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -1614px;
+}
+
+
+.bg-normal{
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+}
+
+.imagens{
+    width: 903px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+.crianças-bike{
+    height: 258px;
+}
+
+.monstro-correndo {
+    transform: scaleY(-1);
+    filter: grayscale(100%) brightness(90%);
+    width: 903px;
+    height: 413px;
+    margin: 0 auto;
+}
+
+
+
+.mundo-invertido{
+    display: flex;
+    justify-content: center;
+}
+
+.mundo-invertido h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    color: #CF0F0F;
+    width: 550px;
+    height: 104px;
+    margin-bottom: 40px;
+}
+
+.mundo-invertido p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;
+    width: 708px;
+    height: 60px;
+}
+
+
+.ladoalado {
+    display: flex;
+    flex-direction: column;
+    margin-left: 104px;
+    width: 708px;
+}
+
+.mundo-invertido img{
+    display: flex;
+    width: 334.19px; 
+    height: 468.37px;
+    margin-left: 108.56px;
+    margin-right: 140.56px;
+}
+
+.video {
+    display: flex;
+    margin-bottom: 95px;
+    justify-content: center;
+    margin-top: 94.87px;
+}
+
+
+iframe{
+    
+    margin-left: 147px;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, #CF0F0F 0%, #FFFFFF 100%);
+    border-image-slice: 1; 
+    box-shadow: -25px 24px 0px 0px #CF0F0F;
+}
+
+.thumbvideo{
+    position: absolute; 
+    width: 473px; 
+    height: 237px; 
+    display: block;
+    left: 277.7px;
+    bottom: 1490px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.play-icon {
+    position: absolute;
+    width: 162px;
+    height: 162px;
+    left: 436px;
+    bottom: 1525px;
+    border-radius: 50%;
+    border: 4px solid #CF0F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: transparent; 
+    cursor: pointer;
+} 
+
+.play-icon::before {
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid #CF0F0F;
+    transform: translateX(2px);
+    transform: rotate(31deg);
+    cursor: pointer;
+}
+
+
+img.thumbvideo{
+    width: 473px; 
+    height: 237px; 
+    object-fit: cover;
+}
+
+.ladoalado-video{
+
+    margin-left: 73px;
+    margin-right: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ladoalado-video h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    color: #CF0F0F;
+    width: 555px;
+    height: 104px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+
+.ladoalado-video p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;
+    text-align: right;
+    width: 624px;
+    height: 60px; 
+}
+
+.netflix{
+    position: relative; 
+}
+
+.container-netflix{
+    width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    overflow: hidden;
+}
+
+.netflix h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    color: #CF0F0F;
+    margin-left: 122px;
+    width: 757px;
+    height: 104px;
+    margin-bottom: 69px;
+}
+
+.netflix > *:not(:first-child):not(:last-child){
+    width: 233px;
+    height: 232px;
+    object-fit: cover;
+    display: inline-block;
+    box-shadow:
+    0 0 0 7px black,
+    0 0 0 8px red,
+    0 0 0 29px black;
+    margin-bottom: 122px; 
+}
+.netflix img.img-01  {
+    margin-left: 122px;
+    margin-right: 40px;
+
+}
+
+.netflix img.img-02 {
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+
+.netflix img.img-03 {
+    margin-left: 40px;
+    margin-right: 40px;
+    z-index: 2;
+    position: relative;
+} 
+
+
+.netflix img.img-natal {
+    position: absolute;
+    bottom: -247px;
+    left: 787px;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.clube{
+    text-align: center;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-florest{
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 63.54%, rgba(255, 255, 255, 0.948571) 69.79%, rgba(255, 255, 255, 0.75) 100%), url(./images/backgrounds/florest.png);
+    height: auto; 
+    min-height: 100vh;
+    position: relative; 
+    width: 100%; 
+}
+
+
+.clube h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    color: #CF0F0F;
+    width: 857px;
+    height: 114px;
+    margin-left: 291px;
+    margin-right: 292px;
+}
+
+.clube span{
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65.37px;
+}
+
+
+.clube p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;
+    width: 1067px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 186px;
+    margin-right: 187px;
+}
+
+.ladoalado-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 52px; 
+}
+
+.ladoalado-formulario h1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    width: 475px;
+    height: 312px;
+    margin-right: 14px;
+}
+
+.ladoalado-formulario, .cor h1{
+    color: black;
+}
+
+.ladoalado-formulario h1 span{
+    
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.22px;
+    color: #CF0F0F;
+}
+
+span {
+    font-family: "Archivo Black", sans-serif;
+}
+.formulario {
+    width: 578px;
+    height: 558px;
+    background-color: #CF0F0F;
+    color: white;
+    padding: 24px;   
+}
+
+.formulario,.cores{
+    box-shadow: 30px 36px 0px 0px black; 
+}
+
+input {
+   background-color: black;
+   border: solid white 2px;
+   width: 530px;
+   height: 47px;
+   text-align: center;
+   margin-bottom: 24px;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;  
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.41px;
+    width: 200px;
+    height: 41px;
+    padding: 12px 32px;
+    border: 0;
+    margin-left: 177px;
+    margin-right: 177px;  
+}
+
+input.personagem {
+    height: 120px;
+}
+
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    background-color: #B5BBBF;
+    position: relative; 
+    height: 218px;
+    overflow: hidden; 
+}
+
+footer h1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.84px;
+    width: 633px;
+    height: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+footer img.footer-dio{
+    padding-bottom: 35px;
+}
+
+footer img.fita{
+    position: absolute;
+    bottom: -135px;
+    left: 1186px;
+    transform: rotate(15.3deg);
+}
+
+footer img.fita1{
+    position: absolute;
+    bottom: -139px;
+    left: -63px;
+    transform: rotate(-15.3deg); 
+}
+
+/**************** inversoes aqui para baixo *******************/
+/* ok */
+.header-img-invertido, .header-p-invertido, .imagens-netflix-invertido {
+    transform: scaleY(-1);
+}
+
+/* ok, so deu no botao e no span mas esta resolvido */
+.fonte-invertido{
+    font-family: "Rubik Glitch", system-ui;
+}
+
+/* ok */
+/* quando for nas imagens monstro e crianças bike mudar o src da img um pelo outro e esses css's tirar o antigo e adicionar o novo */
+
+/* ok */
+.crianças-bike-invertido{
+    height: 409px;
+    filter: invert(1);
+}
+
+/* ok */
+.monstro-correndo-invertido{
+    transform: scaleY(-1);
+    filter: grayscale(100%) brightness(15%);
+    width: 903px;
+    margin: 0 auto;
+}
+
+/* ok */
+.imagem-mundo-invertido{
+    transform:scaleY(-1) scaleX(-1);
+}
+
+/* ok */
+.lampadas-cor-invertido{
+    filter: invert(100%);
+}
+
+/* ok */
+/* no caso das imagens vou usar o css que ja ta feito mais aqui para cima
+vai ter que trocar o lugar das imagens, tira a 01 e bota 03, tira 03 e bota 01
+pode ser feito alterando o src delas, apenas uma troca */
+
+/* ok */
+.netflix-invertido > *:not(:first-child):not(:last-child){
+    width: 233px;
+    height: 232px;
+    object-fit: cover;
+    display: inline-block;
+    box-shadow:
+    0 0 0 7px white,
+    0 0 0 8px red,
+    0 0 0 29px white;
+    margin-bottom: 122px;
+}
+
+/* ok */
+.footer-invertido{
+    background-color: black;
+    color: white;
+}
+
+/* ok */
+.footer-fitas-invertido{
+    filter: grayscale(100%) brightness(15%);
+}
+
+/* ok */
+.bg-florest-invertido{
+    background: linear-gradient(180deg, #050000 0%, #130404 63.54%, rgba(19, 1, 1, 0.73) 100%), 
+    url(./images/backgrounds/florest.png);
+    height: auto; 
+    min-height: 100vh;
+    position: relative; 
+    width: 100%;
+}
+
+/* ok */
+/* todos os p adicionar essa class */
+.invertido {
+    color: white;
+}
+
+/* ok */
+.button-invertido{
+    background-color: #CF0F0F;
+    color: white;
+}
+
+/* ok */
+.cores-invertido{
+    box-shadow: 30px 36px 0px 0px white; 
+}
+
+/* ok */
+ /* entra no lugar de bg-normal */
+.bg-invertido{
+    
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(180deg, #050000 0%, #130404 63.54%, rgba(19, 1, 1, 0.73) 100%);
+    z-index: 1;
+}
+/* ok */
+.bg-principal-invertido{
+    position: relative;
+    overflow: hidden;
+}
+/* ok */
+.bg-principal-invertido::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/backgrounds/424d4dd55664ec139b35d728ccf62135.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -1614px;
+    filter: brightness(31%) contrast(84%) hue-rotate(126deg);
+    z-index: -1; 
+}
+
+/***********medias queries******************/
+
+@media (max-width: 768px) {
+    html{
+    width: 768px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* para ficar ajustado os tamanhos precisaria ajeitar os ou o background que esta causando problema 
+    o site é feito para 1700, nao tem muito o que fazer, ou eu ainda nao sei.*/
+}}
+
+@media (max-width: 500px) {
+    html{
+    width: 500px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}}
+@media (max-width: 320px) {
+    html{
+    width: 320px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}}
