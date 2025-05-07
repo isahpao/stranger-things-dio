@@ -15,7 +15,6 @@ Este projeto não é responsivo, sendo otimizado apenas para visualização em t
 
 - 🌙 Modo Dark/Light: O usuário pode alternar entre temas claro e escuro.
 - 🖼️ Estilo Temático: Visual baseado no universo da série Stranger Things.
-- 📱 Layout Responsivo: A página se adapta a diferentes tamanhos de tela.
 - 🧠 Interatividade: Uso de eventos para capturar ações do usuário.
 - ✅ Validação de Formulário: Campos com validação de preenchimento obrigatório.
 
