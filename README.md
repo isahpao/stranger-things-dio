@@ -2,11 +2,14 @@
 
 ### 
 
-# 🏆 Stranger Things
+# 👹 Stranger Things
 
 ## 📌 Descrição
 
-Este projeto foi desenvolvido inspirado na série Stranger Things. A proposta foi criar uma página estática com HTML, CSS e JavaScript, aplicando conceitos fundamentais de estilização e interatividade.
+Este projeto foi desenvolvido com inspiração na série Stranger Things. Trata-se de uma página estática construída com HTML, CSS e JavaScript, com foco na aplicação de conceitos fundamentais de estilização e interatividade.
+
+O layout foi baseado em um protótipo criado no Figma, disponível [neste link](https://www.figma.com/design/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=3-64&t=7EjXQWje03eCzG01-0), projetado especificamente para resoluções de tela **com largura mínima de 1140px.**
+Este projeto não é responsivo, sendo otimizado apenas para visualização em telas grandes. Em resoluções inferiores a 1140px, podem ocorrer quebras de layout ou sobreposição de elementos.
 
 ## ✨ Funcionalidades
 
@@ -31,7 +34,6 @@ Durante o desenvolvimento, algumas escolhas foram feitas:
 2. **Validação com HTML5** → Para tornar a experiência do formulário mais fluida.
 3. **Estilização com Flexbox** → Para facilitar o alinhamento dos elementos e responsividade.
 
-   
 
 ## 🔗 Demonstração Online: [Acesse aqui](https://isahpao.github.io/stranger-things-dio/)
 
@@ -41,16 +43,60 @@ Durante o desenvolvimento, algumas escolhas foram feitas:
 
 ## 🚀 Como Rodar o Projeto
 
-Para visualizar o projeto localmente:
+Para testar o projeto localmente, siga os passos abaixo:
 
-### **1️⃣ Clone o repositório:**
+### **1️⃣ Clone o repositório**
 
-git clone https://github.com/isahpao/stranger-things-dio.git
+```bash
+bash
+CopiarEditar
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-### **2️⃣ Acesse a pasta do projeto:**
+```
 
-cd stranger-things-dio
+### **2️⃣ Acesse a pasta do projeto**
 
-### **3️⃣ Abra o arquivo index.html no seu navegador:**
+```bash
+bash
+CopiarEditar
+cd nome-do-projeto
 
-double click no index.html ou abra com seu navegador de preferência
+```
+
+### **3️⃣ Instale as dependências**
+
+```bash
+bash
+CopiarEditar
+npm install
+
+```
+
+ou
+
+```bash
+bash
+CopiarEditar
+yarn install
+
+```
+
+### **4️⃣ Execute o projeto**
+
+```bash
+bash
+CopiarEditar
+npm start
+
+```
+
+ou
+
+```bash
+bash
+CopiarEditar
+yarn start
+
+```
+
+Agora, basta abrir o navegador e acessar `http://localhost:3000/`.
